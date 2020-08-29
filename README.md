@@ -1,11 +1,105 @@
 # Awesome-Causal-Inference
 A curated list of awesome work on causal inference, particularly in machine learning.
 
-I am gathering resources (currently @ 72 papers) as literature for my PhD, and thought it may come in useful for others. This list includes work relating causal inference to deep learning, statistics, machine learning, and representation learning.
+I am gathering resources (currently @ 127 papers) as literature for my PhD, and thought it may come in useful for others. This list includes work relating causal inference to deep learning, statistics, machine learning, and representation learning. If I've missed your paper, or there's a paper you want on the list, then feel free to contribute or email me : ]
 
 The are ordered by year (new to old).
 
 ## 2020
+
+Long-term effect estimation with surrogate representation. 	Cheng, Guo, Liu	https://arxiv.org/pdf/2008.08236.pdf
+
+Heidegger: Interpretable temporal causal discovery.	Mansouri, Arab, Zohrevand, Ester	https://dl.acm.org/doi/abs/10.1145/3394486.3403220
+
+Deconfounding and causal regularization for stability and external validity.	Buhlmann, Cevid	https://arxiv.org/pdf/2008.06234.pdf
+
+A Bayesian nonparametric conditional two-sample test with an application to local causal discovery. 	Boeken, Mooij	https://arxiv.org/pdf/2008.07382.pdf
+
+Semiparametric estimation and inference on structural target functions using machine learning and influence functions.	Curth, Alaa, Schaar, 	https://arxiv.org/pdf/2008.06461.pdf
+
+Estimating causal effects with the neural autoregressive density estimator. 	Garrido, Borysov, Rich, Pereira	https://arxiv.org/pdf/2008.07283.pdf
+
+Reparametrization invariance for non-parametric causal discovery.	Jorgensen, Hauberg	https://arxiv.org/pdf/2008.05552.pdf
+
+Multivariate counterfactual systems and causal graphical models.	Shpitser, Richardson, Robins	https://arxiv.org/pdf/2008.06017.pdf
+
+Causal inference on discrete data.	Budhathoki	https://eda.mmci.uni-saarland.de/pubs/2020/phd-budhathoki.pdf
+
+CRUDS: Counterfactual recourse using disentangled subspaces.	Downs, Chu, Yacoby, Doshi-Velez, Pan	https://finale.seas.harvard.edu/files/finale/files/cruds-_counterfactual_recourse_using_disentangled_subspaces.pdf
+
+A causal lens for peeking into black box predictive models: predictive model interpretation via causal attribution. 	Khademi, Honava	https://arxiv.org/pdf/2008.00357.pdf
+
+Improving and assessing causal inference algorithms for DAGs.	Eigenmann	https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/428225/1/DoctoralthesisMarcoEigenmann.pdf
+
+Differentiable causal discovery from interventional data. 	Brouillard, Lachapelle, Lacoste, Lacoste-Julien, Drouin	https://arxiv.org/pdf/2007.01754.pdf
+
+Causal feature selection via orthogonal search. 	Raj, Bauer, Soleymani, Besserve	https://arxiv.org/pdf/2007.02938.pdf
+
+High-recall causal discovery for autocorrelated time series with latent confounders.	Gerhardus, Runge	https://arxiv.org/pdf/2007.01884.pdf
+
+Adapting text embeddings for causal inference. 	Veitch, Sridhar, Blei	http://www.auai.org/uai2020/proceedings/376_main_paper.pdf
+
+Flagpoles anyone? Causal and explanatory asymmetries. 	Woodward	http://philsci-archive.pitt.edu/17419/1/flagpoles2%20with%20changes%20accepted%207.1.20.pdf
+
+IGNITE: a minimax game toward learning individual treatment effects from networked observational data.  	Guo, Li, Li, Candan, Raglin, Liu	http://www.public.asu.edu/~rguo12/IJCAI20_IGNITE_arxiv.pdf
+
+Counterfactual propagation for semi-supervised individual treatment effect estimation.	Harada, Kashima	https://arxiv.org/pdf/2005.05099.pdf
+
+Simpson's paradox in COVID-19 case fatality rates: a mediation analysis of age-related causal effects.	von Kugelgen, Gresele, Scholkopf	https://arxiv.org/abs/2005.07180
+
+Counterfactual confounding adjustment for feature representationas learned by deep models: with an application to image classification tasks.	Neto	https://arxiv.org/abs/2004.09466
+
+Necessary and sufficient conditions for causal feature selection in time series with latent common causes. 	Mastakouri, Scholkopf, Janzing	https://arxiv.org/pdf/2005.08543.pdf
+
+Achieving causal fairness in machine learning.	Wu	https://search.proquest.com/openview/5b94283bd4da8edc1b14bff3db4c9e77/1?pq-origsite=gscholar&cbl=18750&diss=y
+
+Efficient intervention design for causal discovery with latents.	Addanki, Kasiviswanathan, McGregor, Musco	https://arxiv.org/pdf/2005.11736.pdf
+
+CausaLM: Causal model explanation through counterfactual language models.	Feder, Oved, Shalit, Reichart	https://arxiv.org/pdf/2005.13407.pdf
+
+Bayesian network structure learning with causal effects in the presence of latent variables. 	Chobtham, Constantinou	https://arxiv.org/pdf/2005.14381.pdf
+
+A principled approach to multiple causal inference.	Mehta	https://static1.squarespace.com/static/577d2a80579fb35f94742dbb/t/5eb43f0b8a1cef37852cc5c3/1588870930090/senior_thesis.pdf
+
+Study causal inference techniques for data-driven personalised decision-making.	Dai	https://vrs.amsi.org.au/wp-content/uploads/sites/75/2020/01/dai_zhou_vrs-report.pdf
+
+Phenomenal causality and sensory realism.	Mding, Bruins, Scholkopf, Berens,Wichmann	https://journals.sagepub.com/doi/pdf/10.1177/2041669520927038
+
+Causal inference with deep causal graphs. 	Parafita, Vitria	https://arxiv.org/pdf/2006.08380.pdf
+
+Is independence all your need? On the generalization of representations learned from correlated data.	Trauble, Creager, Kilbertus, Goyal, Locatello, Scholkopf, Bauer	https://arxiv.org/pdf/2006.07886.pdf
+
+Learning decomposed representation for counterfactual inference.	Wu, Kuang, Yuan, Li, Zhou	https://arxiv.org/pdf/2006.07040.pdf
+
+Robust recursive partitioning for heterogeneous treatment effects with uncertainty quantification. 	Lee, Zhang, Zame, et al.	https://arxiv.org/pdf/2006.07917.pdf
+
+Learning causal models online. 	Javed, White, Bengio	https://arxiv.org/pdf/2006.07461.pdf
+
+Targeted learning: robust statistics for reproducible research.	Coyle, Hejazi et al.	https://arxiv.org/pdf/2006.07333.pdf
+
+Supervised whole DAG causal discovery.  	Li, Xiao, Tian	https://arxiv.org/pdf/2006.04697.pdf
+
+Causal discovery from incomplete data using an encoder and reinforcement learning	.  Huang, Zhu, Holloway, Haidar	https://arxiv.org/pdf/2006.05554.pdf
+
+Identifying causal structure in dynamical systems.	Baumann, Solowjow, Johansson, Trimpe	https://arxiv.org/pdf/2006.03906.pdf
+
+Optimal configuration of concentrating solar power in multienergy power systems with an improved variational autoencoder.	Qi, Hu, Dong, Fan, Dong, Xiao	https://www.sciencedirect.com/science/article/abs/pii/S030626192030636X
+
+tvGP-VAE: tensor-variate gaussian process prior variational autoencoder.  	Campbell, Lio	https://arxiv.org/pdf/2006.04788.pdf
+
+OC-FakeDect: classifying deepfakes using one-class variational autoencoder.	Khalid, Woo 	http://openaccess.thecvf.com/content_CVPRW_2020/papers/w39/Khalid_OC-FakeDect_Classifying_Deepfakes_Using_One-Class_Variational_Autoencoder_CVPRW_2020_paper.pdf
+
+Tuning a variational autoencoder for data accountability problem in the Mars science laboratory ground data system. 	Lakhmiri, Alimo, Le Digabel	https://arxiv.org/pdf/2006.03962.pdf
+
+Counterfactual vision and language learning. 	Abbasnejad, Teneh, Parvaneh, Shi, Hengel	http://openaccess.thecvf.com/content_CVPR_2020/papers/Abbasnejad_Counterfactual_Vision_and_Language_Learning_CVPR_2020_paper.pdf
+
+Invariant risk minimization. 	Arjovsky, Bottou, Gulrajani, Lopez-Paz	https://arxiv.org/pdf/1907.02893.pdf
+
+Amortized causal discovery: learning to infer causal graphs from time-series data.	Lowe, Madras, Zemel, Welling	https://arxiv.org/abs/2006.10833
+
+Structural autoencoders improve representations for generation and transfer.	Leeb, Annadani, Bauer, Scholkopf	https://arxiv.org/pdf/2006.07796.pdf
+
+Recurrent independent mechanisms. 	Goyal, Lamb, Hoffmann, Sodhani, Levine, Bengio, Scholkopf	https://arxiv.org/abs/1909.10893
 
 A crash course in good and bad controls.	Cinelli, Forney, Pearl	 https://ftp.cs.ucla.edu/pub/stat_ser/r493.pdf
 
@@ -47,8 +141,15 @@ Dark, beyond deep: a paradigm shift to cognitive AI with humanlike common sense.
 
 MultiMBNN: matched and balanced causal inference with neural networks	Sharma, Gupta, Prasad, Chatterjee, Vig, Shroff	https://arxiv.org/abs/2004.13446
 
+Fairness by learning orthogonal disentangled representations. 	Sarhan, Navab, Eslami, Albarquouni	https://arxiv.org/abs/2003.05707
+
+Bounding causal effects on continuous outcomes.	Zhang, Bareinboim	https://causalai.net/r61.pdf
 
 ## 2019
+
+Interpretable subgroup discovery in treatment effect estimation with application to opioid prescribing guidelines.	Nagpal, Wei, Vinzamuri et al	https://arxiv.org/abs/1905.03297
+
+DebFace: De-biasing face recognition, 	Gong, Liu, Jain	https://arxiv.org/abs/1911.08080
 
 Learning individual causal effects from networked observational data. 	Guo, Li, Liu	https://arxiv.org/abs/1906.03485
 
@@ -108,6 +209,10 @@ Structural causal bandits: where to intervene?	Lee, Bareinboim	https://causalai.
 
 ## 2017
 
+Counterfactual fairness.	Kusner, Loftus, Russell, Silva	https://papers.nips.cc/paper/6995-counterfactual-fairness
+
+Avoiding discrimination through causal reasoning.	Kilbertus, Rojas-Carulla, Parascandolo, Hardt, Janzing, Scholkopf	https://arxiv.org/abs/1706.02744
+
 Elements of causal inference.	Peters, Janzing, Scholkopf	https://mitpress.mit.edu/books/elements-causal-inference
 
 Deep counterfactual networks with propensity-dropout.	Alaa, Weisz, van der Schaar	https://arxiv.org/abs/1706.05966
@@ -130,6 +235,8 @@ Targeted maximum likelihood estimation for causal inference in observational stu
 
 Causal inference in law: an epidemiological perspective.	Siegerink, Hollander, Zeegers, Middelburg	https://www.cambridge.org/core/journals/european-journal-of-risk-regulation/article/causal-inference-in-law-an-epidemiological-perspective/316A2F893F03FCA836354BCC21BDC1E4
 
+Equality of opportunity in supervised learning. 	Hardt, Price, Srebro	https://papers.nips.cc/paper/6374-equality-of-opportunity-in-supervised-learning.pdf
+
 ## 2015
 
 Do-calculus when the true graph is unknown.	Hyttinen, Eberhardt, Jarvisalo
@@ -146,6 +253,7 @@ Seeing the arrow of time. 	Pickup, Pan, Wei, Shih, Zhang, Zisserman, Scholkopf, 
 
 Causal diagrams for interference.	Ogburn, VanderWeele	https://arxiv.org/pdf/1403.1239.pdf
 
+Causal models and learning from data: integrating causal modeling and statistical estimation. 	Petersen, van der Laan	https://journals.lww.com/epidem/Fulltext/2014/05000/Causal_Models_and_Learning_from_Data__Integrating.13.aspx
 
 ## 2013
 
