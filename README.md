@@ -1,11 +1,126 @@
 # Awesome-Causal-Inference
 A curated list of awesome work on causal inference, particularly in machine learning.
 
-I am gathering resources (currently @ 127 papers) as literature for my PhD, and thought it may come in useful for others. This list includes work relating causal inference to deep learning, statistics, machine learning, and representation learning. If I've missed your paper, or there's a paper you want on the list, then feel free to contribute or email me : ]
+I am gathering resources (currently @ 185 papers) as literature for my PhD, and thought it may come in useful for others. This list includes work relating causal inference to deep learning, statistics, machine learning, and representation learning. If I've missed your paper, or there's a paper you want on the list, then feel free to contribute or email me : ]
 
 The are ordered by year (new to old).
 
 ## 2020
+
+Amortized learning of neural causal representations.	Ke, Wang, Mitrovic, Szummer, Rezende	https://arxiv.org/pdf/2008.09301.pdf
+
+Causal future prediction in a Minkowski space-time.	Vlontzos, Rocha, Rueckert, Kainz	https://arxiv.org/pdf/2008.09154.pdf
+
+Path dependent structural equation models.	Srinivasan, Lee, Ahmidi, Shpitser	https://arxiv.org/pdf/2008.10706.pdf
+
+A narrative review of methods for causal inference and associated educational resources. 	Landsittel, Srivastava, Kropf, Kristin	https://journals.lww.com/qmhcjournal/Abstract/2020/10000/A_Narrative_Review_of_Methods_for_Causal_Inference.12.aspx?context=LatestArticles
+
+Targeted VAE: structured inference and targeted learning for causal parameter estimation.	Vowels, Camgoz, Bowden	https://arxiv.org/pdf/2009.13472.pdf
+
+CASTLE: regularization via auxiliary causal graph discovery.	Kyono, Zhang	https://arxiv.org/pdf/2009.13180.pdf
+
+Identifying treatment effects under unobserved confounding by causal representation learning.	Anonymous	https://openreview.net/forum?id=D3TNqCspFpM
+
+Causal discovery for causal bandits utilizing separating sets.	de Kroon, Belgrave, Mooij	https://arxiv.org/pdf/2009.07916.pdf
+
+Learning DAGs with continuous optimization.	Zheng	https://www.ml.cmu.edu/research/phd-dissertation-pdfs/thesis-zheng-xun.pdf
+		
+Hybridizing machine learning methods and finite mixture models for estimating heterogeneous treatment effects in latent classes.	Suk, Kim, Kang	 https://journals.sagepub.com/doi/abs/10.3102/1076998620951983
+
+Tuning causal discovery algorithms.	Biza, Tsamardinos, Triantafillou	 https://pgm2020.cs.aau.dk/wp-content/uploads/2020/09/biza20.pdf
+
+Debiased machine learning of conditional average treatment effects and other causal functions.	Semenova, Chernozhukov	https://academic.oup.com/ectj/advance-article-abstract/doi/10.1093/ectj/utaa027/5899048
+
+Estimating individual treatment effects with time-varying confounders.	Liu, Yin, Zhang	https://arxiv.org/pdf/2008.13620.pdf
+
+Confounding feature acquisition for causal effect estimation.	Wang, Yi, Joshi, Ghassemi	https://arxiv.org/pdf/2011.08753.pdf
+
+Causal inference methods for combining randomized trials and observational studies: a review. 	Colnet, Mayer, Chen, Dieng, Li, Varoquaux, Vert, Josse, Yang	https://arxiv.org/pdf/2011.08047.pdf
+
+Reconstruction of a directed acyclic graph with intervention.	Peng, Shen	https://projecteuclid.org/download/pdfview_1/euclid.ejs/1605582080
+
+Debiased Inverse Propensity Score Weighting for Estimation of Average Treatment Effects with High-Dimensional Confounders.	Wang, Shah	https://arxiv.org/pdf/2011.08661.pdf
+
+A novel method for Causal Structure Discovery from EHR data.  Shen, Ma, Vemuri, Castro, Caraballo, Simon	https://arxiv.org/pdf/2011.05489.pdf
+
+Teaching deep learning causal effects improves predictive performance.	Li, Jia, Yang, Kumar, Steinbach, Simon	https://arxiv.org/pdf/2011.05466.pdf
+
+Learning Causal Representations for Robust Domain Adaptation.	Yang, Yu, Cao, Liu, Wang, Li	https://arxiv.org/pdf/2011.06317.pdf   
+
+Learning causal semantic representations for out-of-distribution prediction. Liu, Sun, Wang, Li, Qin, Chen, Liu	https://arxiv.org/pdf/2011.01681.pdf
+
+
+Counterfactual Fairness with  disentangled causal effect variational autoencoder.	Kim, Shin, Jang, Song, Joo, Kang, Moon	https://arxiv.org/pdf/2011.11878.pdf
+
+A systematic review of causal methods enabling predictions under hypothetical interventions.	Lin, Sperrin, Jenkins, Martin, Peek	https://arxiv.org/pdf/2011.09815.pdf
+
+Efficient permutation discovery in causal DAGs. 	Squires, Amaniampong, Uhler	https://arxiv.org/pdf/2011.03610.pdf
+
+Causality-aware counterfactual confounding adjustment as an alternative to linear residualization in anticausal prediction tasks based on linear learners.	Neto	https://arxiv.org/pdf/2011.04605.pdf
+
+Conditional independence testing for variable selection and causal inference.	Bates	https://search.proquest.com/openview/f46a5071aecc21df0cbb3f43d408bcfd/1?pq-origsite=gscholar&cbl=18750&diss=y
+
+Interpretable models for Granger causality using self-explaining neural networks.	Marcinkevics, Vogt	https://mds.inf.ethz.ch/fileadmin/user_upload/gc_neurips2020_workshop_cr.pdf
+
+High-dimensional feature selection for sample efficient treatment effect estimation.	Greenewald, Katz-Rogozhnikov, Shanmugam	https://arxiv.org/pdf/2011.01979.pdf
+
+Latent causal invariant model.	Sun, Wu, Liu, Zheng, Chen, Qin, Liu	https://arxiv.org/pdf/2011.02203.pdf
+
+Applications of common entropy for causal inference.	Kocaoglu, Shakkottai, Dimakis, Caramanis, Vishwanath	https://proceedings.neurips.cc/paper/2020/file/cae7115f44837c806c9b23ed00a1a28a-Paper.pdf
+
+Entropic causal inference: identifiability and finite sample results.	Compton, Kocaoglu, Greenewald, Katz	https://proceedings.neurips.cc/paper/2020/file/a979ca2444b34449a2c80b012749e9cd-Paper.pdf
+
+Generalized independent noise condition for estimating latent variable causal graphs.	Xie, Cai, Huang, Glymour, Hao, Zhang	https://proceedings.neurips.cc/paper/2020/file/aa475604668730af60a0a87cc92604da-Paper.pdf
+
+Bayesian causal structural learning with zero-inflated poisson bayesian networks.	Choi, Chapkin, Ni	https://proceedings.neurips.cc/paper/2020/file/4175a4b46a45813fccf4bd34c779d817-Paper.pdf
+
+Causal autoregressive flows.	Khemakhem, Monti, Leech, Hyvarinen	https://arxiv.org/pdf/2011.02268.pdf
+
+Causal variables from reinforcement learning using generalized Bellman equations.	Herlau	https://arxiv.org/pdf/2010.15745.pdf
+
+Domain adaptation under structural causal models.	Chen, Buhlmann	https://arxiv.org/pdf/2010.15764.pdf
+
+Causalworld: A robotic manipulation benchmark for causal structure and transfer learning.	  Ahmed, Trauble, Goyal, Neitz, Bengio, Scholkopf, Bauer, Wuthrich	https://arxiv.org/pdf/2010.04296.pdf
+
+Representation learning for treatment effect estimation.	Yao	https://search.proquest.com/openview/d21f343b17412c1af8099ac93ae92fee/1?pq-origsite=gscholar&cbl=18750&diss=y
+
+Neural additive vector autoregression models for causal discovery in time series data.	Bussmann, Nys, Latre	https://arxiv.org/pdf/2010.09429.pdf
+
+Causal discovery using compression-complexity measures.	SY, Nagaraj	https://arxiv.org/pdf/2010.09336.pdf
+
+DAGs with no fears: a closer look at continuous optimization for learning bayesian networks.	Wei, Gao, Yu	https://arxiv.org/pdf/2010.09133.pdf
+
+Learning robust models using the principle of independent causal mechanisms. 	Muller, Schmier, Ardizzone, Rother, Kothe	https://arxiv.org/pdf/2010.07167.pdf
+
+Double robust representation learning for counterfactual prediction.	Zeng, Asaad, Tao, Datta, Carin, Li	https://arxiv.org/pdf/2010.07866.pdf
+
+Causal learning with sufficient statistics: an information bottleneck approach.	Chicharro, Besserve, Panzeri	https://arxiv.org/pdf/2010.05375.pdf
+
+Differentiable causal discovery under unmeasured confounding.	Bhattacharya, Nagarajan, Malinsky, Shpitser	https://arxiv.org/pdf/2010.06978.pdf
+
+Identifying causal-effect inference failure with uncertainty-aware models.	Jesson, Mindermann, Shalit, Gal	https://arxiv.org/abs/2007.00163
+
+Causally correct partial models for reinforcement learning.	Rezende, Danihelka, Papamakarios, Ke, Jiang, Webever, Gregor, Merzic, Viola, Wang, Mitrovic, Besse, Antonoglou, Buesing	https://arxiv.org/pdf/2002.02836v1.pdf
+
+Causal curiosity: RL agents discovering self-supervised experiments for causal representation learning.	Sontakke, Mehrjou	https://arxiv.org/pdf/2010.03110.pdf
+
+Assessing the fairness of classifiers with collider bias.	Xi, Liu, Cheng, Li, Liu, Kang	https://arxiv.org/pdf/2010.03933.pdf
+
+Disentangling causal effects for hierarchical reinforcement learning.	Corcoll. Vicente	https://arxiv.org/pdf/2010.01351.pdf
+
+A new representation learning method for individual treatment effect estimation: split covariate representation network.	Liu, Tian, Ji, Zheng	http://proceedings.mlr.press/v129/qidong20a/qidong20a.pdf
+
+Personalized estimation and causal inference via deep learning algorithms.	Liu	https://digitalcommons.library.tmc.edu/cgi/viewcontent.cgi?article=1149&context=uthsph_dissertsopen
+
+Disentangled generative causal representation learning.	Shen, Liu, Dong, Lian, Chen, Zhang	https://arxiv.org/pdf/2010.02637.pdf
+
+Explaining the efficacy of counterfactually-augmented data.	Kaushik, Setlur, Hovy, Lipton	https://arxiv.org/pdf/2010.02114.pdf
+
+A new framework for causal discovery.	van Leeuwen, DeCaria, Chakaborty, Pulido	https://arxiv.org/pdf/2010.02247.pdf
+
+Graphical Granger causality by information-theoretic criteria.	Hlavackova-Schindler, Plant	http://eprints.cs.univie.ac.at/6518/1/264_paper.pdf
+
+Systematic evaluation of causal discovery in visual model based reinforcement learning	anonymous	https://openreview.net/pdf/fd60f3b99ed8b26cd60f5f884fe2e6eb7e3ec327.pdf
 
 Long-term effect estimation with surrogate representation. 	Cheng, Guo, Liu	https://arxiv.org/pdf/2008.08236.pdf
 
