@@ -1,11 +1,194 @@
 # Awesome-Causal-Inference
-A curated list of awesome work on causal inference, particularly in machine learning.
+A curated list of awesome work on causal inference and (some) causal discovery, particularly in machine learning.
 
-I am gathering resources (currently @ 185 papers) as literature for my PhD, and thought it may come in useful for others. This list includes work relating causal inference to deep learning, statistics, machine learning, and representation learning. If I've missed your paper, or there's a paper you want on the list, then feel free to contribute or email me : ]
+I am gathering resources (currently @ 271 papers) as literature for my PhD, and thought it may come in useful for others. This list includes work relating causal inference to deep learning, statistics, machine learning, and representation learning. If I've missed your paper, or there's a paper you want on the list, then feel free to contribute or email me : ]
 
 The are ordered by year (new to old).
 
+## 2021
+
+
+Identification of Latent Variables From Graphical Model Residuals. Hayete, Gruber, Decker, Yan. https://arxiv.org/pdf/2101.02332.pdf
+
+Disentangling Observed Causal Effects from Latent Confounders using Method of Moments. Liu, Liu, Li, Karimi-Bidhendi, Yue, Anandkumar. https://arxiv.org/pdf/2101.06614.pdf
+
+Counterfactual Generative Networks. Sauer, Geiger. https://arxiv.org/pdf/2101.06046.pdf
+
+Model Compression for Domain Adaptation through Causal Effect Estimation. Rotman, Feder, Reichart.
+https://arxiv.org/pdf/2101.07086.pdf
+
+Discrete Graph Structure Learning for Forecasting Multiple Time Series. Shang, Chen, Bi. https://arxiv.org/pdf/2101.06861.pdf
+
+Instance-Specific Causal Bayesian Network Structure Learning. Jabbari. http://d-scholarship.pitt.edu/40018/19/Jabbari%20Final%20ETD.pdf
+
+The limits of graphical causal discovery. Sevilla. https://towardsdatascience.com/the-limits-of-graphical-causal-discovery-92d92aed54d6?gi=db403d386344
+
+Estimating Average Treatment Effects via Orthogonal Regularization. Hatt, Feuerriegel. https://arxiv.org/pdf/2101.08490.pdf
+
+CDSM--Casual Inference using Deep Bayesian Dynamic Survival Models. Zhu, Gallego. https://arxiv.org/pdf/2101.10643.pdf
+
+Nonparametric Estimation of Heterogeneous Treatment Effects: From Theory to Learning Algorithms. Curth, van der Schaar. https://arxiv.org/pdf/2101.10943.pdf
+
+Causality and independence in perfectly adapted dynamical systems. Blom, Mooij. https://arxiv.org/pdf/2101.11885.pdf
+
+Causal inference for quantile treatment effects. Sun, Moodie, Neslehova. https://onlinelibrary.wiley.com/doi/abs/10.1002/env.2668
+
+Variational Bayes survival analysis for unemployment modelling. Boskoski, Perne, Ramesa, Boshkoska. https://arxiv.org/pdf/2102.02295.pdf
+
+A scoping review of causal methods enabling predictions under hypothetical interventions. Lin, Sperrin, Jenkins, Martin, Peek. https://link.springer.com/article/10.1186/s41512-021-00092-9
+
+Estimating the treatment effect for adherers using multiple imputation. Luo, Ruberg, Qu. https://arxiv.org/pdf/2102.03499.pdf
+
+On the Sample Complexity of Causal Discovery and the Value of Domain Expertise. Wadhwa, Dong. https://arxiv.org/pdf/2102.03274.pdf
+
+Integer Programming for Causal Structure Learning in the Presence of Latent Variables. Chen, Dash, Gao. https://arxiv.org/pdf/2102.03129.pdf
+
+Improving Causal Discovery By Optimal Bayesian Network Learning. Lu. Zhang, Yuan. https://www.aaai.org/AAAI21Papers/AAAI-8537.LuN.pdf
+
+Estimating Identifiable Causal Effects through Double Machine Learning. Jung, Tian, Bareinboim. https://www.aaai.org/AAAI21Papers/AAAI-8987.JungY.pdf
+
+Counterfactual Explanation with Multi-Agent Reinforcement Learning for Drug Target Prediction. Nguyen, Quinn, Nguyen, Tran. https://arxiv.org/pdf/2103.12983.pdf
+
+User-oriented smart general AI system under causal inference. Peng. https://arxiv.org/pdf/2103.14561.pdf
+
+A New Causal Approach to Account for Treatment Switching in Randomized Experiments under a Structural Cumulative Survival Model. Ying, Tchetgen. https://arxiv.org/pdf/2103.12206.pdf
+
+Average Treatment Effects in the Presence of Interference. Hu, Li, Wager. https://arxiv.org/pdf/2104.03802.pdf
+
+FRITL: A Hybrid Method for Causal Discovery in the Presence of Latent Confounders. Chen, Zhang, Cai, Huang, Ramsey, Hao, Glymour. https://arxiv.org/pdf/2103.14238.pdf
+
+A brief introduction to causal inference. Nguyen. http://review.ttu.edu.vn/index.php/review/article/download/112/120&hl=en&sa=X&d=3868739188093254491&ei=S3B1YKqkKPqB6rQP7YGXiAI&scisig=AAGBfm2BnYjxbqbGRyi2ySV4VOsV383PQg&nossl=1&oi=scholaralrt&html=&folt=cit
+
+Causal Decision Making and Causal Effect Estimation Are Not the Same... and Why It Matters. Fernandez-Loria, Provost. https://arxiv.org/pdf/2104.04103.pdf
+
+Being bayesian about causal inference. Bucur. https://repository.ubn.ru.nl/bitstream/handle/2066/226922/226922.pdf?sequence=1&isAllowed=y
+
+A computational model for complex systems analysis: Causality estimation. Sinha, Loparo. https://www.sciencedirect.com/science/article/abs/pii/S0167278921000737
+
+Post-selection Problems for Causal Inference with Invalid Instruments: A Solution Using Searching and Sampling. Guo. https://arxiv.org/pdf/2104.06911.pdf
+
+On the implied weights of linear regression for causal inference. Chattopadhyay, Zubizarreta. https://arxiv.org/pdf/2104.06581.pdf
+
+Fast and effective pseudo transfer entropy for bivariate data-driven causal inference. Silini, Masoller. https://www.nature.com/articles/s41598-021-87818-3
+
+Shadow-Mapping for Unsupervised Neural Causal Discovery. Vowels, Camgoz, Bowden. https://arxiv.org/pdf/2104.08183.pdf
+
+Sequential Deconfounding for Causal Inference with Unobserved Confounders. Hatt, Feuerriegel. https://arxiv.org/pdf/2104.09323.pdf
+
+CATE meets ML-The Conditional Average Treatment Effect and Machine Learning. Jacob.  https://arxiv.org/pdf/2104.09935.pdf
+
+A calculus for causal inference with instrumental variables. Wong. https://arxiv.org/pdf/2104.10633.pdf
+
+Causal-TGAN: Generating Tabular Data Using Causal Generative Adversarial Networks. Wen, Colon, Subbalakshmi, Chandramouli. https://arxiv.org/pdf/2104.10680.pdf
+
+
+Causal Discovery. Sucar https://link.springer.com/chapter/10.1007/978-3-030-61943-5_15
+
+Understanding the causal structure among the tags in marketing systems. Zheng, Yang, Liu https://link.springer.com/article/10.1007/s00521-020-05552-9
+
+Nonlinear Invariant Risk Minimization: A Causal Approach. Lu.Wu, Hernandez-Lobato, Scholkopf https://arxiv.org/pdf/2102.12353.pdf
+
+Beware of the Simulated DAG! Varsortability in Additive Noise Models. Reisach, Seiler, Weichwald https://arxiv.org/pdf/2102.13647.pdf
+
+Covariate balancing for causal inference on categorical and continuous treatments. Lee, Ma, de Luna
+https://arxiv.org/pdf/2103.00527.pdf
+
+Toward Causal Representation Learning. Scholkopf, Locatello, Bauer, Ke, Kalchbrenner, Goyal, Bengio https://ieeexplore.ieee.org/document/9363924/?denied=
+
+Improving Causal Inference by Increasing Model Expressiveness. Jensen https://www.aaai.org/AAAI21Papers/SMT-427.JensenD.pdf
+
+A Generative Adversarial Framework for Bounding Confounded Causal Effects. Hu, Wu, Zhang, Wu https://www.aaai.org/AAAI21Papers/AAAI-3651.HuY.pdf
+
+Why did the distribution change? Budhathoki, Janzing, Blobaum, Ng https://arxiv.org/pdf/2102.13384.pdf
+
+Incorporating Causal Graphical Prior Knowledge into Predictive Modeling via Simple Data Augmentation. Teshima, Sugiyama https://arxiv.org/pdf/2103.00136.pdf
+
+Regularizing towards Causal Invariance: Linear Models with Proxies. Oberst, Thams, Peters, Sontag https://arxiv.org/pdf/2103.02477.pdf
+
+Relate and predict: Structure-Aware prediction with Jointly Optimized Neural DAG. Sekhon, Wang, Qi https://arxiv.org/pdf/2103.02405.pdf
+
+Estimating Identifiable Causal Effects on Markov Equivalence Class through Double Machine Learning. Jung, Tian, Bareinboim https://causalai.net/r71.pdf
+
+D?ya like DAGs? A Survey on Structure Learning and Causal Discovery. Vowels, Camgoz, Bowden https://arxiv.org/pdf/2103.02582.pdf
+
+Non-Parametric Methods for Partial Identification of Causal Effects. Zhang, Bareinboim https://causalai.net/r72.pdf
+
+Placebo Tests for Causal Inference. Eggers, Tunon, Dafoe https://pelg.ucsd.edu/Eggers_2021.pdf
+
+Bayesian Doubly Robust Causal Inference via Loss Functions. Luo, Stephens, Graham, McCoy https://arxiv.org/pdf/2103.04086.pdf
+
+Causality indices for bivariate time series data: a comparative review of performance. Edinburgh, Eglen, Ercole https://arxiv.org/pdf/2104.00718.pdf
+
+Doubly robust confidence sequences for sequential causal inference. Waudby-Smith, Arbour, Sinha, Kennedy, Ramdas https://arxiv.org/pdf/2103.06476.pdf
+
+Quantifying Ignorance in Individual-Level Causal-Effect Estimates under Hidden Confounding. Jesson, Mindermann, Gal, Shalit https://arxiv.org/pdf/2103.04850.pdf
+
+A Tree-based Federated Learning Approach for Personalized Treatment Effect Estimation from Heterogeneous Data Sources. Tan, Chang, Tang https://arxiv.org/pdf/2103.06261.pdf
+
+Time-Reversibility, Causality and Compression-Complexity. Kathpalia, Nagaraj.
+
+Identifiability of causal effects with multiple causes and a binary outcome. Kong, Yang, Wang https://academic.oup.com/biomet/advance-article-abstract/doi/10.1093/biomet/asab016/6168988
+
+Three Essays on Model Selection in Time Series Econometrics. Aka  https://refubium.fu-berlin.de/handle/fub188/29740
+
+Causal Inference Q-Network: Toward Resilient Reinforcement Learning. Yang, Hung, Ouyang, Chen https://arxiv.org/pdf/2102.09677.pdf
+
+Generating Interpretable Counterfactual Explanations By Implicit Minimisation of Epistemic and Aleatoric Uncertainties. Schut, Key, McGrath, Costabello, Sacaleanu, Corcoran, Gal https://arxiv.org/pdf/2103.08951.pdf
+
+Treatment Effect Estimation using Invariant Risk Minimization. Shah, Ahuja, Shanmugam, Wei, Varshney, Dhurandhar https://arxiv.org/pdf/2103.07788.pdf
+
+VCNet and Functional Targeted Regularization For Learning Causal Effects of Continuous Treatments. Nie, Ye, Liu, Nicolae https://arxiv.org/pdf/2103.07861.pdf
+
+
+Uplift Modeling: from Causal Inference to Personalization. Teinemaa, Albert, Goldenberg https://www.researchgate.net/profile/Dmitri-Goldenberg/publication/349762341_Uplift_Modeling_from_Causal_Inference_to_Personalization/links/60409ccca6fdcc9c780f8b37/Uplift-Modeling-from-Causal-Inference-to-Personalization.pdf
+
+
+Higher-Order Orthogonal Causal Learning for Treatment Effect. Huang, Leung, Yan, Wu  https://arxiv.org/pdf/2103.11869.pdf
+
+NCoRE: Neural Counterfactual Representation Learning for Combinations of Treatments. Parbhoo, Bauer, Schwab https://arxiv.org/pdf/2103.11175.pdf
+
+Causal Inference under Networked Interference and Intervention Policy Enhancement. Ma, Tresp  http://proceedings.mlr.press/v130/ma21c/ma21c.pdf
+
+Causal Modeling with Stochastic Confounders. Vo, Wei, Bergsma, Leong http://proceedings.mlr.press/v130/vinh-vo21a/vinh-vo21a.pdf
+
+ANOCE: analysis of causal effects with multiple mediators via constrained structural learning.  Cai, Song, Lu https://openreview.net/pdf/8142413a92e7df5fb79598dee863640346d53f5b.pdf
+
+Causal Inference Under Unmeasured Confounding With Negative Controls: A Minimax Learning Approach. Kallus, Mao, Uehara https://arxiv.org/pdf/2103.14029.pdf
+
+Conditions and Assumptions for Constraint-based Causal Structure Learning. Sadeghi, Soo  https://arxiv.org/pdf/2103.13521.pdf
+
+Robust estimation of heterogeneous treatment effects using electronic health record data. Li, Wang, Tu https://onlinelibrary.wiley.com/doi/full/10.1002/sim.8926
+
+Causal Discovery with Bijective Fixed-Cause Functionals. Jalaldoust, Salehkaleybar, Kiyavash. http://jalaldoust.com/docs/CDBFF.pdf
+
+User-Oriented Smart General AI System under Causal Inference.  Peng https://arxiv.org/pdf/2103.14561.pdf
+
+Deconfounded Score Method: Scoring DAGs with Dense Unobserved Confounding.  Bellot, van der Schaar https://arxiv.org/pdf/2103.15106.pdf
+
+A New Causal Approach to Account for Treatment Switching in Randomized Experiments under a Structural Cumulative Survival Model. Ying, Tchetgen  https://arxiv.org/pdf/2103.12206.pdf
+
+SEMgraph: An R Package for Causal Network Analysis of High-Throughput Data with Structural Equation Models. Paluzzi, Grassi https://arxiv.org/pdf/2103.08332.pdf
+
+Bayesian optimal experimental design for inferring causal structure.  Zemplenyi, Miller https://arxiv.org/pdf/2103.15229.pdf
+
+Multi-Source Causal Inference Using Control Variates.  Guo, Wang, Ding, Wang, Jordan  https://arxiv.org/pdf/2103.16689.pdf
+
+Intact-VAE: Estimating Treatment Effects under Unobserved Confounding.  Wu, Fukumizu  https://arxiv.org/pdf/2101.06662.pdf
+
 ## 2020
+
+The Impact of Time Series Length and Discretization on Longitudinal Causal Estimation Methods. Adams, Saria, Rosenblum. https://arxiv.org/pdf/2011.15099.pdf
+
+algcomparison: Comparing the Performance of Graphical Structure Learning Algorithms with TETRAD. Ramsey, Malinsky, Bui https://www.jmlr.org/papers/volume21/19-773/19-773.pdf
+
+Towards causality-aware predictions in static anticausal machine learning tasks: the linear structural causal model case. Neto https://www.cmu.edu/dietrich/causality/CameraReadys-accepted%20papers/23%5CCameraReady%5Ccdml_causality_aware.pdf
+
+Evaluation of Algorithm Selection and Ensemble Methods for Causal Discovery. Saldanha, Cosbey, Ayton, Glenski, Cottam, Shivaram, Jefferson, Hutchinson, Arendt, Volkova https://www.cmu.edu/dietrich/causality/CameraReadys-accepted%20papers/28%5CCameraReady%5CEvaluating_Causal_Ensembles_NeurIPS_CR.pdf
+
+Causal World Models by Unsupervised Deconfounding of Physical Dynamics. Li, Yang, Liu, Chen, Chen, Wang https://arxiv.org/pdf/2012.14228.pdf
+
+Intervention Efficient Algorithms for Approximate Learning of Causal Graphs. Addanki, McGregor, Musco
+https://arxiv.org/pdf/2012.13976.pdf
 
 Amortized learning of neural causal representations.	Ke, Wang, Mitrovic, Szummer, Rezende	https://arxiv.org/pdf/2008.09301.pdf
 
